@@ -3,7 +3,7 @@ clear
 echo '1) Desktop Left 1080p / TV Right 1080p'
 echo '2) Desktop 1080p'
 echo '3) TV only 1080p'
-echo '4) Desktop /TV mirrored'
+echo '4) Desktop / TV mirrored'
 read mode
 if [ "$mode" == 1 ]; then
 		xrandr --output DisplayPort-0 --mode 1920x1080 --output DVI-D-0 --mode 1920x1080 --output DVI-D-0 --right-of DisplayPort-0
