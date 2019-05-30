@@ -1,4 +1,4 @@
-# Largly stolen from Parrot OS -- https://github.com/ParrotSec/parrot-core/blob/master/parrot-core/root/.bashrc
+# Largly stripped from Parrot OS -- https://github.com/ParrotSec/parrot-core/blob/master/parrot-core/root/.bashrc
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH
 
