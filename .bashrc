@@ -1,9 +1,4 @@
 # Largly stolen from Parrot OS
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH
 
@@ -44,13 +39,5 @@ alias _i='sudo -i'
 #Added alias:
 alias cls='clear'
 
-# enable programmable completion features
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
 #Welcome Message figlet required
 figlet Welcome $USER ! ! !
