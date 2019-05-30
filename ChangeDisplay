@@ -1,4 +1,5 @@
 #!/bin/bash
+# Highly personalized script for my desktop and TV setup.
 clear
 echo '1) Desktop Left 1080p / TV Right 1080p'
 echo '2) Desktop 1080p'
