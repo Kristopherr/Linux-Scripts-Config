@@ -61,4 +61,8 @@ if ! shopt -oq posix; then
   fi
 fi
 #Welcome Message figlet required
-figlet Welcome $USER ! ! !
+if [ $USER == root ]; then
+   figlet Welcome to ROOT ! ! !
+else
+   figlet Welcome $USER ! ! !
+fi
