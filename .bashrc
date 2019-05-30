@@ -39,5 +39,5 @@ alias _i='sudo -i'
 #Added alias:
 alias cls='clear'
 
-#Welcome Message figlet required
+#Welcome Message install figlet and customize; or comment out.
 figlet Welcome $USER ! ! !
