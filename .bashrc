@@ -60,3 +60,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+#Welcome Message figlet required
+figlet Welcome $USER ! ! !
