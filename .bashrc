@@ -39,5 +39,11 @@ alias _i='sudo -i'
 #Added alias:
 alias cls='clear'
 
+#gentoo specific
+#ccache
+  export PATH="/usr/lib/ccache/bin${PATH:+:}$PATH"
+  export CCACHE_DIR="/usr/ccache"
+
+
 #Welcome Message install figlet and customize; or comment out.
 figlet Welcome $USER ! ! !
