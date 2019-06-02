@@ -13,5 +13,4 @@ Best Bash is an attempt to create an entertaining and hansome bash.
 
 enjoy
 
-Works in debian/ubuntu based distro. Any disto bash will work by replacing .bashrc file here with one in distro and installing
-the aplications figlet and fortune.
+Works in debian/ubuntu based distro. Any disto bash will work by replacing "/home/$USER/.bashrc" and/or "/root/.bashrc" file here with ones in distro and installing figlet and fortune.
