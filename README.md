@@ -3,7 +3,7 @@ Configs and scrips for linux
 
 Work in progress...
 
-Best Bash is an attempt to create an entertaining and hansome bash.  
+Best Bash is an attempt to create an entertaining and handsome bash.  
 
 1) Download file InstallBestBash
 2) chmod +x InstallBestBash
