@@ -37,7 +37,7 @@ alias _='sudo'
 alias _i='sudo -i'
 
 #Added alias:
-alias cls='clear && echo " " && fortune && echo " " '
+alias cls='tput reset && echo " " && fortune && echo " " '
 alias clear='tput reset && echo " " && fortune && echo " " '
 alias aptupdate='sudo apt update && sudo apt upgrade'
 
