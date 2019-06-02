@@ -42,3 +42,5 @@ alias aptupdate='sudo apt update && sudo apt upgrade'
 
 #Welcome Message install figlet and customize; or comment out.
 figlet Welcome $USER ! ! !
+#random quote generator install fortune
+fortune
