@@ -1,0 +1,18 @@
+#!/bin/bash
+#install root bash-- run as sudo
+
+if [ "$EUID" -ne 0 ]
+	then echo "Please run sudo or as root'"
+	exit
+fi
+
+#figlet and fortune are requirments
+apt install figlet fortune
+
+#install root bash
+sudo mv /root/.bashrc /root/.bashrc-old
+sudo curl https://raw.githubusercontent.com/Kristopherr/Linux-Scripts-Config/master/.bashrc > /root/.bashrc
+
+#install user bash
+mv /home/$USER/.bashrc /home/$USER/.bashrc-old
+curl https://raw.githubusercontent.com/Kristopherr/Linux-Scripts-Config/master/.bashrc > /home/$USER/.bashrc
