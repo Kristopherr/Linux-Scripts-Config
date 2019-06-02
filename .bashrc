@@ -38,6 +38,7 @@ alias _i='sudo -i'
 
 #Added alias:
 alias cls='clear'
+alias aptupdate='sudo apt update && sudo apt upgrade'
 
 #Welcome Message install figlet and customize; or comment out.
 figlet Welcome $USER ! ! !
